@@ -1,0 +1,144 @@
+/*dit is het stylesheet  bestand*/
+	
+	* 		{
+			box-sizing: border-box;
+			font-family: Arial, Helvetica, sans-serif;
+            	text-decoration-color: #0d0d0d;
+		text-decoration: Bold;
+			}
+
+	body 	{
+			margin: 0;
+			font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+            text-decoration-color: #0d0d0d;
+			}
+
+
+	body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+        background-color: #ffffff;
+        text-decoration-color: #0d0d0d;
+	background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+	}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+    .topnavcenter
+        {
+				display: block;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+                color: #0d0d0d;
+				background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 100%;
+	animation: gradient 15s ease infinite;
+        }
+
+	.topnav {
+			overflow: hidden;
+  			background-image: linear-gradient(red, yellow);
+			background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 100%;
+	animation: gradient 15s ease infinite;
+
+			}
+
+
+	.topnav a 	{
+				float:left;
+				display: block;
+				color: #1a1a1a;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+                color: #ffffff;
+				}
+
+
+	.topnav a:hover {
+                    text-align:center;
+					color: #0d0d0d;
+                    			background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 100%;
+	animation: gradient 15s ease infinite;
+					}
+	.header 	{
+                text-align:center;
+                align-content: center;
+			
+				padding: 10px;
+                color: #0d0d0d;
+				
+				}
+
+	.content 	{
+                text-align:center;
+                align-content: center;
+				
+  			
+				
+				padding: 10px;
+                color: #0d0d0d;
+		
+				}
+
+	.footer {
+            text-align:center;
+			
+			padding: 10px;
+            color: #0d0d0d;
+			}
+	hr {
+			background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+		background-size: 400% 100%;
+		animation: gradient 15s ease infinite;
+		border: none;
+		height: 3px;
+	}		
+			
+	table 	{
+            text-align:center;
+			font-family: arial, sans-serif;
+			border-collapse: collapse;
+			width: 100%;
+            color: #0d0d0d;
+			}
+
+	td, th 	{
+            text-align:center;
+			border: 1px solid #0d0d0d;
+			text-align: left;
+			padding: 8px;
+            color: #0d0d0d;
+			}
+
+	tr:nth-child(even) 	{
+            text-align:center;
+            background-color: #d9d9d9;
+            color: #0d0d0d;
+						}
+						
+	.column {
+            text-align:center;
+			float: right;
+			width: 33%;
+			padding: 10px;
+            color: #0d0d0d;
+			}
